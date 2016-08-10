@@ -15,6 +15,7 @@
  }
 
  html, body{
+ 	background-color: #f7f9fc;
  	font-family: 'Source Sans Pro', sans-serif;
  	font-size: 14px;
  	height:100%;
@@ -48,16 +49,17 @@
 
  .site-name{
  	max-width: 100%;
- 	padding: 100px 0;
+ 	height: 300px;
+ 	padding-top: 80px;
  	text-align: center;
  }
 
  .site-name h1{
- 	font-weight: 700;
+ 	font-weight: 500;
  	font-size: 50px;
- 	line-height: 75px;
+ 	line-height: 50px;
  	color: #000;
- 	margin-bottom: 10px;
+ 	margin-bottom: 0px;
  	color: #f8f8f8;
  	font-family: inherit;
  }
@@ -71,7 +73,8 @@
  }
 
  div[role="main"] {
- 	background-color: #fff;
+
+ 	margin-top: 20px;
  	padding-right: 20px;
  	padding-left: 20px;
 
@@ -122,7 +125,7 @@
  	font-size: 13px;
  	line-height: 17px;
  	margin-bottom: 10px;
- 	background: -webkit-radial-gradient(#fd2c8f, #fe5b37);
+ 	background: -webkit-radial-gradient(#2C85FD, #3787FE);
  	-webkit-background-clip: text;
  	-webkit-text-fill-color: transparent;
  }
@@ -138,15 +141,6 @@
  	float: left;
  }
 
- footer .title-social-media {
- 	font-weight: 700;
- 	font-size: 13px;
- 	line-height: 17px;
- 	margin-bottom: 10px;
- 	background: -webkit-radial-gradient(#fd2c8f, #fe5b37);
- 	-webkit-background-clip: text;
- 	-webkit-text-fill-color: transparent;
- }
 
  #footer .title-apoio {
  	font-weight: 700;
