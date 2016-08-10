@@ -1,0 +1,158 @@
+/*
+ * style.css 
+ */
+
+ *{
+ 	box-sizing: border-box;
+ 	margin:0;
+ 	padding:0;
+ }
+
+ .container-fluid{
+ 	min-height:100%;
+ 	position:relative;
+
+ }
+
+ html, body{
+ 	font-family: 'Source Sans Pro', sans-serif;
+ 	font-size: 14px;
+ 	height:100%;
+
+ }
+ .row {
+ 	margin-bottom: 20px;
+ }
+
+ a{color: #FFC853;}
+
+ a{
+ 	color: #fafafa;
+ }
+ a:hover{
+ 	text-decoration: none;
+ }
+ 
+ .navprincipal{
+ 	width: 100%;
+ 	display: block;
+ 	z-index: 1;
+ 	position: fixed;
+ 	background-image: linear-gradient(45deg, #081B3F, #112443, #061B26 100%);
+ 	font-family: 'Source Sans Pro', sans-serif;
+ 	font-weight: 400;
+ 	font-size: 20px;
+ 	padding-right: 20px;
+ 	padding-left: 20px;
+ } 
+
+ .site-name{
+ 	max-width: 100%;
+ 	padding: 100px 0;
+ 	text-align: center;
+ }
+
+ .site-name h1{
+ 	font-weight: 700;
+ 	font-size: 50px;
+ 	line-height: 75px;
+ 	color: #000;
+ 	margin-bottom: 10px;
+ 	color: #f8f8f8;
+ 	font-family: inherit;
+ }
+
+ .site-name p{
+ 	font-weight: 300;
+ 	font-size: 24px;
+ 	line-height: 31px;
+ 	margin-bottom: 68px;
+ 	text-rendering: optimizeLegibility;
+ }
+
+ div[role="main"] {
+ 	background-color: #fff;
+ 	padding-right: 20px;
+ 	padding-left: 20px;
+
+ }
+
+ div[role="main"], aside {
+ 	/*height: 600px;*/
+ }
+
+ header{
+ 	background-image: linear-gradient(45deg, #2B75FC, #458AFD, #30B8FE 100%);
+ 	color:#f8f8f8;
+ 	text-align: center;
+ }
+
+ footer{
+ 	background-color: #343B4A;
+ 	background-image: linear-gradient(45deg, #081B3F, #112443, #061B26 100%);
+ 	padding: 31px 0;
+ 	padding-right: 20px;
+ 	padding-left: 20px;
+ 	bottom:0;
+
+ }
+
+ footer .container-fluid{
+
+ 	color: #f8f8f8;
+ 	background-image: linear-gradient(45deg, #081B3F, #112443, #061B26 100%);
+ 	padding-right: 15px;
+ 	padding-left: 15px;
+ 	padding-top: auto;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	text-align: center;
+ }
+
+ .pull-left {
+ 	float: left !important;
+ }
+
+ .pull-right {
+ 	float: right !important;
+ }
+
+ #footer .title-social-media {
+ 	font-weight: 700;
+ 	font-size: 13px;
+ 	line-height: 17px;
+ 	margin-bottom: 10px;
+ 	background: -webkit-radial-gradient(#fd2c8f, #fe5b37);
+ 	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+ }
+ #footer .social-media a:first-child {
+ 	margin-left: 0;
+ }
+
+ #footer .social-media a {
+ 	font-size: 14px;
+ 	line-height: 14px;
+ 	color: #fff;
+ 	margin-left: 20px;
+ 	float: left;
+ }
+
+ footer .title-social-media {
+ 	font-weight: 700;
+ 	font-size: 13px;
+ 	line-height: 17px;
+ 	margin-bottom: 10px;
+ 	background: -webkit-radial-gradient(#fd2c8f, #fe5b37);
+ 	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+ }
+
+ #footer .title-apoio {
+ 	font-weight: 700;
+ 	font-size: 13px;
+ 	line-height: 17px;
+ 	margin-bottom: 5px;
+ 	margin-right: 50px;
+ 	margin-left: 50px;
+ }
