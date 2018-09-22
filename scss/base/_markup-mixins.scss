@@ -82,7 +82,7 @@ $retina-hd: 2.5; // hd retina > 2.5x
   }
 }
 
-// from http://codepen.io/MichaelArestad/pen/IxFGj 
+// from https://codepen.io/MichaelArestad/pen/IxFGj 
 @mixin arrow-lazy($al-direction: top, $al-size: 10px, $al-color: #ccc, $al-center: 50%, $al-margin: -1px, $al-pseudo: before){
   position: relative;
   border-color: $al-color;
