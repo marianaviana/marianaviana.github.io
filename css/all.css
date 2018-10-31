@@ -1498,6 +1498,9 @@ p {
 		cursor: default;
 		pointer-events: none;
 	}
+	.footer-holder{
+		padding: 62px 0 92px 90px;
+	}
 }
 
 /*# sourceMappingURL=all.css.map */
