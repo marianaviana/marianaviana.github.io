@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^mariviana\.dev$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mariviana\.dev$
+RewriteRule ^simulacao$ "https\:\/\/gamma\.app\/docs\/O\-Mateus\-nao\-e\-o\-verdadeiro\-Mateus\-lk9dy0fug720ql3" [R=301,L]
+
