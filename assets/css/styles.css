@@ -53,9 +53,11 @@
    --mb-2-5: 2.5rem;
    --mb-3: 3rem;
    /*========== z index ==========*/
+   --z-background: 0;
    --z-tooltip: 10;
    --z-fixed: 100;
    --z-modal: 1000;
+   --z-start: 1;
  }
 
  /* Font size for large devices */
@@ -166,7 +168,7 @@
  .section {
    padding: 2rem 0 4rem;
    position: relative;
-   z-index: 2;
+   z-index: var(--z-tooltip);
  }
 
  .section_title {
@@ -313,7 +315,7 @@
    background-position: -8.5px -8.5px;
    -webkit-mask-image: radial-gradient(ellipse at center, #000, transparent 75%);
    mask-image: radial-gradient(ellipse at center, #000, transparent 75%);
-   z-index: 1;
+   z-index: var(--z-background);
  }
 
  .opacity-05 {
@@ -1042,6 +1044,11 @@
  .footer_copy a {
    color: #fff !important;
  }
+
+
+.portfolio, .testimonial, .footer, .contact {
+  z-index: var(--z-start);
+}
 
  /*========== SCROLL UP ==========*/
  .scroll-header {
