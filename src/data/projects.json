@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Comunidades.tech",
+    "stacks": ["React.js", "Styled Components", "Figma", "Open Source"],
+    "url": "https://comunidades.tech/?referral=11316745",
+    "image": "/images/projects/comunidades-tech.avif"
+  },
+  {
+    "title": "RC24h",
+    "stacks": ["WordPress", "UX/UI", "Teste A/B", "Design System"],
+    "url": "https://rc24h.com.br",
+    "image": "/images/projects/rc24h.avif"
+  },
+  {
+    "title": "Impulso Network",
+    "stacks": ["React.js", "Next.js", "Styled Components", "Design System"],
+    "url": "https://impulso.team/pt/profissionais?referral=11316745",
+    "image": "/images/projects/impulso-network.avif"
+  },
+  {
+    "title": "Impulso Work",
+    "stacks": ["React.js", "Next.js", "Styled Components", "Design System"],
+    "url": "https://impulso.team/pt/empresas?referral=11316745",
+    "image": "/images/projects/impulso-work.avif"
+  },
+  {
+    "title": "Blog Impulso",
+    "stacks": ["WordPress", "UX/UI", "Teste A/B", "Design System"],
+    "url": "https://blog.impulso.team/?referral=11316745",
+    "image": "/images/projects/blog-impulso.avif"
+  },
+  {
+    "title": "Área Logada – Impulso",
+    "stacks": ["React.js", "TypeScript", "Styled Components", "API", "Netlify", "Design System"],
+    "url": "https://app.impulso.team",
+    "image": "/images/projects/area-logada-impulso.avif"
+  },
+  {
+    "title": "KGApp",
+    "stacks": ["OTP", "CLI", "Multiplataforma", "Armazenamento Seguro"],
+    "url": "https://kryptus.com/keyguardian-token-criptografico/",
+    "image": "/images/projects/kgapp.png"
+  }
+]
