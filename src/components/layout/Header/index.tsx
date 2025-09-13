@@ -30,7 +30,7 @@ const Logo = styled.a`
   z-index: 1001;
 `;
 
-const MobileMenuButton = styled.button<{ isOpen: boolean }>`
+const MobileMenuButton = styled.button<{ $isOpen: boolean }>`
   display: none;
   background: none;
   border: none;
@@ -85,10 +85,10 @@ export const Header: React.FC = () => {
           />
         </Logo>
 
-        <Menu isOpen={isMenuOpen} />
+        <Menu $isOpen={isMenuOpen} />
 
         <MobileMenuButton
-          isOpen={isMenuOpen}
+          $isOpen={isMenuOpen}
           onClick={toggleMenu}
           aria-label={isMenuOpen ? 'Fechar menu' : 'Abrir menu'}
         >

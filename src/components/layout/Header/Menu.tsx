@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const MenuContainer = styled.nav<{ isOpen: boolean }>`
+const MenuContainer = styled.nav<{ $isOpen: boolean }>`
   display: flex;
   align-items: center;
 
@@ -19,11 +19,11 @@ const MenuContainer = styled.nav<{ isOpen: boolean }>`
     overflow: hidden;
     transition: height 0.3s ease;
     z-index: 999;
-    display: ${({ isOpen }) => (isOpen ? 'flex' : 'none')};;
+    display: ${({ $isOpen }) => ($isOpen ? 'flex' : 'none')};;
   }
 `;
 
-const MenuList = styled.ul<{ isOpen: boolean }>`
+const MenuList = styled.ul<{ $isOpen: boolean }>`
   display: flex;
   gap: ${({ theme }) => theme.spacing.lg};
   list-style: none;
@@ -32,7 +32,7 @@ const MenuList = styled.ul<{ isOpen: boolean }>`
     flex-direction: column;
     align-items: center;
     gap: ${({ theme }) => theme.spacing.xl};
-    opacity: ${({ isOpen }) => (isOpen ? 1 : 0)};
+    opacity: ${({ $isOpen }) => ($isOpen ? 1 : 0)};
     transition: opacity 0.3s ease 0.2s;
   }
 `;
@@ -71,10 +71,10 @@ const MenuLink = styled.a`
 `;
 
 interface MenuProps {
-  isOpen: boolean;
+  $isOpen: boolean;
 }
 
-export const Menu: React.FC<MenuProps> = ({ isOpen }) => {
+export const Menu: React.FC<MenuProps> = ({ $isOpen }) => {
   const menuItems = ['Sobre', 'Serviços', 'Diferenciais', 'Processos', 'Skills', 'Projetos', 'Feedbacks', 'Contato'];
 
   const handleMenuClick = (id: string) => {
@@ -96,8 +96,8 @@ export const Menu: React.FC<MenuProps> = ({ isOpen }) => {
   };
 
   return (
-    <MenuContainer isOpen={isOpen}>
-      <MenuList isOpen={isOpen}>
+    <MenuContainer $isOpen={$isOpen}>
+      <MenuList $isOpen={$isOpen}>
         {menuItems.map((item, index) => {
           const id = item.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
           return (
