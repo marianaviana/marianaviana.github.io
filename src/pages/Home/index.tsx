@@ -26,9 +26,10 @@ const HomeContainer = styled.section`
   background-size: 7px 7px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    min-height: initial;
     flex-direction: column;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 150px
   }
 `;
 
