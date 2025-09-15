@@ -6,9 +6,10 @@ import {
 } from 'react-icons/fa';
 import {
   SiAdobephotoshop, SiLighthouse, SiStyledcomponents, SiTailwindcss,
-  SiTypescript, SiWebpack
+  SiTypescript, SiWebpack, SiInsomnia
 } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
+import { TbApi } from "react-icons/tb";
 
 const SkillsContainer = styled.section`
   padding: ${({ theme }) => theme.spacing.xl} 0;
@@ -119,6 +120,7 @@ export const Skills: React.FC = () => {
     { name: 'JavaScript', icon: <FaJs /> },
     { name: 'TypeScript', icon: <SiTypescript /> },
     { name: 'React', icon: <FaReact /> },
+    { name: 'APIs REST', icon: <TbApi /> },
     { name: 'Styled Components', icon: <SiStyledcomponents /> },
     { name: 'Bootstrap', icon: <FaBootstrap /> },
     { name: 'Tailwind CSS', icon: <SiTailwindcss /> },
@@ -135,6 +137,7 @@ export const Skills: React.FC = () => {
     { name: 'NPM', icon: <FaNpm /> },
     { name: 'Webpack', icon: <SiWebpack /> },
     { name: 'Ubuntu', icon: <FaUbuntu /> },
+    { name: 'Insomnia ', icon: <SiInsomnia /> },
     { name: 'Lighthouse', icon: <SiLighthouse /> },
   ];
 
