@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import {
   FaHtml5, FaCss3Alt, FaSass, FaJs, FaReact, FaGit, FaBootstrap,
-  FaFigma, FaGithub, FaSlack, FaTrello, FaNpm, FaUbuntu
+  FaFigma, FaGithub, FaSlack, FaTrello, FaNpm, FaUbuntu, FaBitbucket
 } from 'react-icons/fa';
 import {
   SiAdobephotoshop, SiLighthouse, SiStyledcomponents, SiTailwindcss,
@@ -132,6 +132,7 @@ export const Skills: React.FC = () => {
     { name: 'Figma', icon: <FaFigma /> },
     { name: 'Photoshop', icon: <SiAdobephotoshop /> },
     { name: 'GitHub', icon: <FaGithub /> },
+    { name: 'Bitbucket', icon: <FaBitbucket /> },
     { name: 'Slack', icon: <FaSlack /> },
     { name: 'Trello', icon: <FaTrello /> },
     { name: 'NPM', icon: <FaNpm /> },
