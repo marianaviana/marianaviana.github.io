@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import {
   FaHtml5, FaCss3Alt, FaSass, FaJs, FaReact, FaGit, FaBootstrap,
-  FaFigma, FaGithub, FaSlack, FaTrello, FaNpm, FaUbuntu, FaBitbucket
+  FaFigma, FaGithub, FaGitlab, FaSlack, FaTrello, FaDiscord, FaRocketchat, FaNpm, FaUbuntu, FaBitbucket
 } from 'react-icons/fa';
 import {
   SiAdobephotoshop, SiLighthouse, SiStyledcomponents, SiTailwindcss,
-  SiTypescript, SiWebpack, SiInsomnia
+  SiTypescript, SiWebpack, SiInsomnia, SiElectron, SiMattermost
 } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
 import { TbApi } from "react-icons/tb";
@@ -124,6 +124,7 @@ export const Skills: React.FC = () => {
     { name: 'Styled Components', icon: <SiStyledcomponents /> },
     { name: 'Bootstrap', icon: <FaBootstrap /> },
     { name: 'Tailwind CSS', icon: <SiTailwindcss /> },
+    { name: 'Electron.js', icon: <SiElectron /> },
     { name: 'Git', icon: <FaGit /> },
   ];
 
@@ -132,9 +133,13 @@ export const Skills: React.FC = () => {
     { name: 'Figma', icon: <FaFigma /> },
     { name: 'Photoshop', icon: <SiAdobephotoshop /> },
     { name: 'GitHub', icon: <FaGithub /> },
+    { name: 'GitLab', icon: <FaGitlab /> },
     { name: 'Bitbucket', icon: <FaBitbucket /> },
     { name: 'Slack', icon: <FaSlack /> },
     { name: 'Trello', icon: <FaTrello /> },
+    { name: 'Discord', icon: <FaDiscord /> },
+    { name: 'Mattermost', icon: <SiMattermost />},
+    { name: 'Rocketchat', icon: <FaRocketchat /> },
     { name: 'NPM', icon: <FaNpm /> },
     { name: 'Webpack', icon: <SiWebpack /> },
     { name: 'Ubuntu', icon: <FaUbuntu /> },
